@@ -28,28 +28,13 @@ export function Services() {
   });
 
   return (
-    <section
-      id="servizi"
-      ref={ref}
-      className="relative py-20 bg-neutral-50"
-    >
-      {/* Immagine di sfondo */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/40 z-10" />
-        <img
-          src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070"
-          alt="Trattamenti estetici"
-          className="w-full h-full object-cover"
-        />
-      </div>
-
-      {/* Contenuto */}
-      <div className="relative z-20 container mx-auto px-4">
+    <section id="servizi" ref={ref} className="py-20 bg-neutral-50">
+      <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-light text-center mb-16 text-white"
+          className="text-4xl font-light text-center mb-16"
         >
           I Nostri Servizi
         </motion.h2>
