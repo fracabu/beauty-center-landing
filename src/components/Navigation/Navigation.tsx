@@ -24,10 +24,11 @@ export function Navigation() {
           <Logo />
           
           <div className="hidden md:flex items-center space-x-12">
-            <NavLink href="#servizi">Servizi</NavLink>
-            <NavLink href="#trattamenti">Trattamenti</NavLink>
-            <NavLink href="#prezzi">Prezzi</NavLink>
-            <NavLink href="#contatti">Contatti</NavLink>
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/servizi">Servizi</NavLink>
+            <NavLink href="/trattamenti">Trattamenti</NavLink>
+            <NavLink href="/prezzi">Prezzi</NavLink>
+            <NavLink href="/contatti">Contatti</NavLink>
           </div>
           
           <div className="flex items-center space-x-6">
